@@ -29,7 +29,7 @@ nav ul {
 }
 
 nav li {
-  margin: 0 20px; /* Adjust margin as needed */
+  margin: 0 20px;
 }
 
 nav a {
@@ -39,7 +39,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffd700; 
+  color: #ffd700;
 }
 
 .profile {
@@ -64,30 +64,33 @@ nav a:hover {
   color: white;
 }
 
-.card > div > p:nth-child(1) {
+.card>div>p:nth-child(1) {
   color: #dc582a;
 }
 
-/* Style h2 and p to center text */
+
 .card h2 {
   font-size: 40px;
   width: 400px;
 }
+
 .card p {
   font-size: 24px;
   width: 400px;
 }
+
 h2,
 p {
-  margin: 10px 0; 
+  margin: 10px 0;
 }
 
-/* recipe cards */
+
 
 .ratings-recipecard {
   display: flex;
   gap: 30px;
 }
+
 .recipe-card {
   border: 1px solid #ccc;
   padding: 20px;
@@ -100,7 +103,7 @@ p {
 .recipe-card .image-container {
   width: 100%;
   height: 0;
-  padding-bottom: 75%; 
+  padding-bottom: 75%;
   position: relative;
   overflow: hidden;
   border-radius: 15px;
@@ -122,12 +125,12 @@ p {
   margin: 5px 0;
 }
 
-.recipe-card h3 + p {
+.recipe-card h3+p {
   font-size: 10px;
   color: gray;
 }
 
-.recipe-card h3 + p + p {
+.recipe-card h3+p+p {
   font-size: 20px;
   color: orange;
 }
@@ -144,6 +147,7 @@ p {
 .filters-container {
   margin: 0px 60px;
 }
+
 .rating-p {
   margin-top: 30px;
 }
@@ -153,30 +157,29 @@ p {
   padding: 10px;
 }
 
-/* search */
-/* Style for the search container */
+
 .search {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 92%; 
+  width: 92%;
   margin: 1.4% auto;
 }
 
-/* Style for the search title */
+
 .search-title {
-  font-size: 1.5em; 
+  font-size: 1.5em;
   font-weight: bold;
   margin-bottom: 0.5em;
 }
 
-/* Style for the search input */
+
 #searchInput {
-  padding: 1em; 
+  padding: 1em;
   width: 98%;
   border: 2px solid #ccc;
   border-radius: 10px;
-  font-size: 1em; 
+  font-size: 1em;
   text-align: left;
 }
 
@@ -190,7 +193,7 @@ p {
   outline: none;
 }
 
-/* Style for the button container */
+
 .button-container {
   text-align: left;
   margin: 10px 60px;
@@ -203,6 +206,7 @@ p {
   padding: 30px 60px;
   border: none;
 }
+
 #showAllBtn {
   background-color: #eaaa00;
   color: white;
@@ -218,7 +222,7 @@ p {
   color: white;
 }
 
-/* Style for the buttons */
+
 .button-container button {
   padding: 1em 2em;
   border-radius: 10px;
@@ -244,7 +248,7 @@ footer li {
   font-weight: bolder;
 }
 
-.footer > div {
+.footer>div {
   max-width: 300px;
 }
 
@@ -259,13 +263,13 @@ footer li {
 }
 
 .smGlobalBtn {
-  /* global button class */
+
   display: inline-block;
   position: relative;
   cursor: pointer;
   width: 50px;
   height: 50px;
-  border: 2px solid #ddd; /* add border to the buttons */
+  border: 2px solid #ddd;
   box-shadow: 0 3px 3px #999;
   padding: 0px;
   text-decoration: none;
@@ -286,31 +290,31 @@ footer li {
   margin: 50px;
   align-items: center;
 }
-/* facebook button class*/
+
 .facebookBtn {
   background: #2a3342;
 }
 
 .facebookBtn:before {
-  /* use :before to add the relevant icons */
+
   font-family: "FontAwesome";
-  content: "\f09a"; /* add facebook icon */
+  content: "\f09a";
 }
 
 .facebookBtn:hover {
   color: #2a3342;
   background: #fff;
-  border-color: #2a3342; /* change the border color on mouse hover */
+  border-color: #2a3342;
 }
 
-/* twitter button class*/
+
 .twitterBtn {
   background: #2a3342;
 }
 
 .twitterBtn:before {
   font-family: "FontAwesome";
-  content: "\f099"; /* add twitter icon */
+  content: "\f099";
 }
 
 .twitterBtn:hover {
@@ -319,14 +323,14 @@ footer li {
   border-color: #2a3342;
 }
 
-/* google plus button class*/
+
 .googleplusBtn {
   background: #2a3342;
 }
 
 .googleplusBtn:before {
   font-family: "FontAwesome";
-  content: "\f0d5"; /* add googleplus icon */
+  content: "\f0d5";
 }
 
 .googleplusBtn:hover {
@@ -335,14 +339,14 @@ footer li {
   border-color: #2a3342;
 }
 
-/* linkedin button class*/
+
 .linkedinBtn {
   background: #2a3342;
 }
 
 .linkedinBtn:before {
   font-family: "FontAwesome";
-  content: "\f0e1"; /* add linkedin icon */
+  content: "\f0e1";
 }
 
 .linkedinBtn:hover {
@@ -351,14 +355,14 @@ footer li {
   border-color: #2a3342;
 }
 
-/* pinterest button class*/
+
 .pinterestBtn {
   background: #2a3342;
 }
 
 .pinterestBtn:before {
   font-family: "FontAwesome";
-  content: "\f0d2"; /* add pinterest icon */
+  content: "\f0d2";
 }
 
 .pinterestBtn:hover {
@@ -367,14 +371,14 @@ footer li {
   border-color: #2a3342;
 }
 
-/* tumblr button class*/
+
 .tumblrBtn {
   background: #2a3342;
 }
 
 .tumblrBtn:before {
   font-family: "FontAwesome";
-  content: "\f173"; /* add tumblr icon */
+  content: "\f173";
 }
 
 .tumblrBtn:hover {
@@ -383,14 +387,14 @@ footer li {
   border-color: #2a3342;
 }
 
-/* rss button class*/
+
 .rssBtn {
   background: #2a3342;
 }
 
 .rssBtn:before {
   font-family: "FontAwesome";
-  content: "\f09e"; /* add rss icon */
+  content: "\f09e";
 }
 
 .rssBtn:hover {
@@ -399,7 +403,7 @@ footer li {
   border-color: #2a3342;
 }
 
-/* Responsive design */
+
 @media (max-width: 767px) {
   .card {
     width: 70%;
@@ -410,14 +414,15 @@ footer li {
   }
 
   .card h2 {
-    font-size: 1.2em; /* Adjust font size for heading on smaller screens */
+    font-size: 1.2em;
     width: 100%;
   }
 
   .card p {
-    font-size: 0.9em; /* Adjust font size for paragraph on smaller screens */
+    font-size: 0.9em;
     width: 100%;
   }
+
   .recipe-container {
     display: block;
   }
@@ -432,6 +437,7 @@ footer li {
     flex: 1 1 45%;
     max-width: 45%;
   }
+
   .ratings-card {
     display: block;
   }
@@ -453,27 +459,27 @@ footer li {
   transition: all 0.3s ease;
 }
 
-/* Hover effect for search cards */
+
 .recipe-card:hover {
   transform: scale(1.05);
 }
 
-/* Hover effect for buttons */
+
 .button-container button:hover {
   transform: translateY(-5px);
 }
 
-/* Cursor hover effect for buttons */
+
 .button-container button {
   cursor: pointer;
 }
 
-/* Hover effect for recipe cards */
+
 .recipe-card:hover .image-container {
   transform: scale(1.05);
 }
 
-/* Hover effect for nav links */
+
 nav a {
   transition: color 0.3s ease;
 }
@@ -482,19 +488,21 @@ nav a:hover {
   color: #ffd700;
 }
 
-/* Hover effect for show filter buttons */
+
 #showAllBtn:hover,
 #showNonVegBtn:hover,
 #showVegBtn:hover {
   transform: scale(1.05);
 }
 
-/* Cursor hover effect for show filter buttons */
-#showAllBtn, #showNonVegBtn, #showVegBtn {
+
+#showAllBtn,
+#showNonVegBtn,
+#showVegBtn {
   cursor: pointer;
 }
 
-/* Hover effect for social media icons */
+
 .smGlobalBtn:hover {
   transform: translateY(-5px);
 }
